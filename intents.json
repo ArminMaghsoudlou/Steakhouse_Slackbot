@@ -1,0 +1,83 @@
+{"intents": [
+        {"tag": "greeting",
+         "patterns": ["Hi", "Hello", "How are you", "How's it going", "Hey", "Whats up", "Howdy partner", "Hola", "Bonjour", "greetings"],
+         "responses": ["Hello!", "Hey! Got any questions?", "Hello, how can I help?", "Feel free to ask me anything"],
+         "context_set": ""
+        },
+        {"tag": "goodbye",
+         "patterns": ["bye", "See you", "Goodbye", "I'm out", "Have a good one", "take care"],
+         "responses": ["Goodbye :( ", "Hope to see you back :)", "Take care"],
+         "context_set": ""
+        },
+        {"tag": "age",
+         "patterns": ["how old", "how old is jacobs", "what is your age", "how old are you", "age?"],
+         "responses": ["We have been serving customers for 20 years now"],
+         "context_set": ""
+        },
+        {"tag": "name",
+         "patterns": ["what is your name", "what should I call you", "whats your name?"],
+         "responses": ["You can call me JacobsBot.", "I'm JacobsBot!", "My name is JacobsBot."],
+         "context_set": ""
+        },
+        {"tag": "shop",
+         "patterns": ["Id like to buy something", "what can I buy?"],
+         "responses": ["In addition to our food/wine, we sell electronic gift cards online"],
+         "context_set": ""
+        },
+        {"tag": "hours",
+         "patterns": ["when are you guys open", "what are your hours", "hours of operation"],
+         "responses": ["We are open  Sunday and Monday: 5:00PM – 10:15PM Tuesday to Saturday: 5:00PM – 10:45PM"],
+         "context_set": ""
+        },
+        {"tag": "popular",
+         "patterns": ["What's popular", "What's good here", "What is your favourite dish","What is the most popular item on the menu", "What food do you recommend?", "Most popular steak", "Most popular wine"],
+         "responses": ["Our Canadian Prime Hereford Bone-In Ribeye is the most popular steak. It will set you back $130 for 20 ounces. Our French sparkling wine is our most popular wine"],
+         "context_set": ""
+        },
+        {"tag": "expensive",
+         "patterns": ["What's expensive", "What is the most expensive item on the menu", "Most expensive food", "Most expensive steak"],
+         "responses": ["A5 Kobe Black Tajima-Hyogo Prefecture Ribeye Steak. It will cost you $1100 for 20 ounces"],
+         "context_set": ""
+        },
+        {"tag": "cheap",
+         "patterns": ["What's cheap", "What is the cheapest item on the menu", "cheapest food", "cheapest steak"],
+         "responses": ["La Morocha Farms Angus-San Luis Tenderloin Steak. It will set you back $54"],
+         "context_set": ""
+        },
+        {"tag": "wifi",
+         "patterns": ["What is the wifi password", "Wifi password"],
+         "responses": ["Jacobs123WIFI"],
+         "context_set": ""
+        },
+        {"tag": "music",
+         "patterns": ["is there music?", "What music do you play", "W"],
+         "responses": ["We have a piano bar that plays a variety of different songs. You can request a song as well"],
+         "context_set": ""
+        },
+        {"tag": "restaurant",
+         "patterns": ["Why should I come to your restaurant?", "What makes your restaurant special", "Why jacobs?"],
+         "responses": ["We are the best steakhouse in Canada. What makes us special is not just the quality of our steaks but also the quality of our staff"],
+         "context_set": ""
+        },
+        {"tag": "dress",
+         "patterns": ["what is the dress code?", "dress code", "How should I dress", "What should I wear", "Hows the dress code"],
+         "responses": ["We operate a strict business formal dress code"],
+         "context_set": ""
+        },
+        {"tag": "location",
+         "patterns": ["Where are you located", "What's the address?", "Where is your address", "Where are you based","Address"],
+         "responses": ["Jacobs & Co is located at 12 Brant Street (just north of King Street). Major Intersection King and Spadina."],
+         "context_set": ""
+        },
+        {"tag": "carryout",
+         "patterns": ["Do you offer carryout", "Can I get my food to go?", "Carryout policy", "Carry out","to-go"],
+         "responses": ["Our carryout policy has recently changed. We do not offer carryout at this time. Sorry for the inconvenience"],
+         "context_set": ""
+        },
+        {"tag": "contact",
+         "patterns": ["How do we contact you", "contact", "How do I reach you", "What is your phone number","What is your email","email","number"],
+         "responses": ["T: 416.366.0200 F: 416.366.8805 Email: info@jacobssteakhouse.com"],
+         "context_set": ""
+        }
+]
+}
